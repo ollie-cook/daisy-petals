@@ -28,7 +28,6 @@ export default function Petal({ strokeColour, shadowColour, className } : PetalP
       >
         <svg viewBox="0 0 100 300">
 
-        //#region stroke
         <rect x="40" y="0" width = "10" height="10" fill={strokeColour} />
         <rect x="50" y="0" width = "10" height="10" fill={strokeColour} />
         <rect x="60" y="0" width = "10" height="10" fill={strokeColour} />
@@ -129,8 +128,6 @@ export default function Petal({ strokeColour, shadowColour, className } : PetalP
 
         <rect x="20" y="290" width = "10" height="10" fill={strokeColour} />
         <rect x="60" y="290" width = "10" height="10" fill={strokeColour} />
-
-        //#endregion
 
         <rect x="10" y="120" width="10" height="90" fill='white' />
         <rect x="20" y="90" width="10" height="170" fill='white' />
